@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "metafos/1.0.0": {
+        "dependencies": {
+          "FastEndpoints": "5.23.0"
+        },
+        "runtime": {
+          "metafos.dll": {}
+        }
+      },
+      "FastEndpoints/5.23.0": {
+        "dependencies": {
+          "FastEndpoints.Attributes": "5.23.0",
+          "FastEndpoints.Messaging.Core": "5.23.0",
+          "FluentValidation": "11.9.0"
+        },
+        "runtime": {
+          "lib/net7.0/FastEndpoints.dll": {
+            "assemblyVersion": "5.23.0.0",
+            "fileVersion": "5.23.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Attributes/5.23.0": {
+        "runtime": {
+          "lib/netstandard2.0/FastEndpoints.Attributes.dll": {
+            "assemblyVersion": "5.23.0.0",
+            "fileVersion": "5.23.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Messaging.Core/5.23.0": {
+        "runtime": {
+          "lib/netstandard2.1/FastEndpoints.Messaging.Core.dll": {
+            "assemblyVersion": "5.23.0.0",
+            "fileVersion": "5.23.0.0"
+          }
+        }
+      },
+      "FluentValidation/11.9.0": {
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "metafos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FastEndpoints/5.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RTrCER39JzeGhS2jxG2tdnjwZalBNJjn8U9N5ZFQOVrN76nEWsL6zSxYPSdguKP+Y13JrECGeIBSSNQrEf+mvQ==",
+      "path": "fastendpoints/5.23.0",
+      "hashPath": "fastendpoints.5.23.0.nupkg.sha512"
+    },
+    "FastEndpoints.Attributes/5.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9cbwRi8UBdQVQssYSzLQoYeqxJUbr7nBOfsN6EZ0kxNBgiEhcUXqo7Cnr5RSIvK/DXaRpS/I/cpaAZb6N7+KjQ==",
+      "path": "fastendpoints.attributes/5.23.0",
+      "hashPath": "fastendpoints.attributes.5.23.0.nupkg.sha512"
+    },
+    "FastEndpoints.Messaging.Core/5.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3fkE2TZdDSOv2+mUwJPGn1XMuhZxKiJDsVxCZtwUN1Lg1lI5GGCu7WXLUlWcYWFQRAQgYbg83aJxBCrlLtG5bQ==",
+      "path": "fastendpoints.messaging.core/5.23.0",
+      "hashPath": "fastendpoints.messaging.core.5.23.0.nupkg.sha512"
+    },
+    "FluentValidation/11.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "path": "fluentvalidation/11.9.0",
+      "hashPath": "fluentvalidation.11.9.0.nupkg.sha512"
+    }
+  }
+}
