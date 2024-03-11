@@ -4,7 +4,7 @@ public class MyEndpoint : Endpoint<MyRequest, MyResponse>
 {
     public override void Configure()
     {
-        Post("/api/users");
+        Post("/api/user/create");
         AllowAnonymous();
     }
 
@@ -12,9 +12,10 @@ public class MyEndpoint : Endpoint<MyRequest, MyResponse>
     {
         await SendAsync(new()
         {
-            EMAIL = req.EMAIL,
-            USERNAME = req.USERNAME,
-            PASSWORD = req.PASSWORD,
+            FullName = req.FirstName + " " + req.LastName,
+            IsOver18 = req.Age > 18
         });
+
     }
 }
+
