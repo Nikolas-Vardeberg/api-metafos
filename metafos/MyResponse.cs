@@ -1,5 +1,6 @@
 public class MyResponse
 {
-    public string FullName { get; set; }
-    public bool IsOver18 { get; set; }
+    public string EMAIL { get; set; }
+    public string USERNAME { get; set; }
+    public string PASSWORD { get; set; }
 }

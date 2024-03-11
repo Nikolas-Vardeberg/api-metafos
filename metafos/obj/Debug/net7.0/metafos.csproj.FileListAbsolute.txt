@@ -30,3 +30,14 @@ C:\Users\Elev\Documents\GitHub\api-metafos\metafos\obj\Debug\net7.0\refint\metaf
 C:\Users\Elev\Documents\GitHub\api-metafos\metafos\obj\Debug\net7.0\metafos.pdb
 C:\Users\Elev\Documents\GitHub\api-metafos\metafos\obj\Debug\net7.0\metafos.genruntimeconfig.cache
 C:\Users\Elev\Documents\GitHub\api-metafos\metafos\obj\Debug\net7.0\ref\metafos.dll
+C:\Users\Elev\Documents\GitHub\api-metafos\metafos\bin\Debug\net7.0\FastEndpoints.Security.dll
+C:\Users\Elev\Documents\GitHub\api-metafos\metafos\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Elev\Documents\GitHub\api-metafos\metafos\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Elev\Documents\GitHub\api-metafos\metafos\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Elev\Documents\GitHub\api-metafos\metafos\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Elev\Documents\GitHub\api-metafos\metafos\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Elev\Documents\GitHub\api-metafos\metafos\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Elev\Documents\GitHub\api-metafos\metafos\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Elev\Documents\GitHub\api-metafos\metafos\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Elev\Documents\GitHub\api-metafos\metafos\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Elev\Documents\GitHub\api-metafos\metafos\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

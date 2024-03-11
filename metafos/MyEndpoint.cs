@@ -12,8 +12,9 @@ public class MyEndpoint : Endpoint<MyRequest, MyResponse>
     {
         await SendAsync(new()
         {
-            FullName = req.FirstName + " " + req.LastName,
-            IsOver18 = req.Age > 18
+            EMAIL = req.EMAIL,
+            USERNAME = req.USERNAME,
+            PASSWORD = req.PASSWORD,
         });
     }
 }
