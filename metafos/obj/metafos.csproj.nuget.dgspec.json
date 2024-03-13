@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Elev\\Documents\\GitHub\\api-metafos\\metafos\\metafos.csproj": {}
+    "C:\\Users\\Elev\\Documents\\GitHub\\api-metafos\\metafos\\metafos.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Elev\\Documents\\GitHub\\api-metafos\\metafos\\metafos.csproj": {
+    "C:\\Users\\Elev\\Documents\\GitHub\\api-metafos\\metafos\\metafos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Elev\\Documents\\GitHub\\api-metafos\\metafos\\metafos.csproj",
+        "projectUniqueName": "C:\\Users\\Elev\\Documents\\GitHub\\api-metafos\\metafos\\metafos.csproj",
         "projectName": "metafos",
-        "projectPath": "c:\\Users\\Elev\\Documents\\GitHub\\api-metafos\\metafos\\metafos.csproj",
+        "projectPath": "C:\\Users\\Elev\\Documents\\GitHub\\api-metafos\\metafos\\metafos.csproj",
         "packagesPath": "C:\\Users\\Elev\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Elev\\Documents\\GitHub\\api-metafos\\metafos\\obj\\",
+        "outputPath": "C:\\Users\\Elev\\Documents\\GitHub\\api-metafos\\metafos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Elev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -32,11 +32,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "FastEndpoints": {
               "target": "Package",
@@ -45,6 +50,20 @@
             "FastEndpoints.Security": {
               "target": "Package",
               "version": "[5.23.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -66,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

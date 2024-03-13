@@ -1,6 +1,9 @@
+using metafos.Models.Users;
+
 namespace metafos.Endpoints.GetAll;
 
 public class MyResponse
 {
-    public List<string> Users {get; set;}
+    public List<User> Users {get; set;}
+    
 }
